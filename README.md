@@ -53,4 +53,5 @@ TODO
 1. Connect the K210 to ESP32 using UART (K210 TX to ESP32 RX2, and K210 RX to ESP32 TX2).
 2. Connect the relay module to the ESP01.
 3. Set up the MQTT broker and configure the ESP32 and ESP01 to connect to it.
-4. Deploy the code to each module.
+4. Add credentials for the MQTT broker and wifi, using the `credentials.hpp.template` file founded in [publisher/host](./publisher/host/include/credentials.hpp.template) and [subscriber/host](./subscriber/include/credentials.hpp.template).
+5. Deploy the code to each module.

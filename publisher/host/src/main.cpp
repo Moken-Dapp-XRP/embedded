@@ -86,7 +86,7 @@ public:
 		wifiManager.connect();
 
 		mqttManager.connect(ID);
-		mqttManager.publish("checkIn", "Initialization complete");
+		mqttManager.publish(MQTT_TOPIC, "Initialization complete");
 	}
 
 	void loop() {
