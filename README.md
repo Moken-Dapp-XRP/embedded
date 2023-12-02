@@ -3,8 +3,7 @@
 ## Overview
 
 This project involves a QR code reading and control system using a combination of K210, ESP32, and ESP01 modules. The K210 reads QR codes and communicates the data to an ESP32 via serial UART. The ESP32 then sends this data to an MQTT topic. An ESP01 subscribed to this MQTT topic controls a relay module based on the received MQTT messages.
-
-![overview]()
+![overview](https://github.com/Moken-Dapp-XRP/embedded/assets/40807526/bc4a48cf-d3f9-4213-bdf4-2aead5844a7c)
 
 ## Demo
 
