@@ -55,3 +55,5 @@ TODO
 3. Set up the MQTT broker and configure the ESP32 and ESP01 to connect to it.
 4. Add credentials for the MQTT broker and wifi, using the `credentials.hpp.template` file founded in [publisher/host](./publisher/host/include/credentials.hpp.template) and [subscriber/host](./subscriber/include/credentials.hpp.template).
 5. Deploy the code to each module.
+6. Scan a QR code with the K210.
+7. The QR code data should be sent to the MQTT topic and the ESP01 should react to it by controlling the relay module.
